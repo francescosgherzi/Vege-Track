@@ -1,0 +1,13 @@
+name: crystal-blockchain
+version: 0.1.0
+
+authors:
+  - Francesco Sgherzi <francesco.sgherzi@gmail.com>
+
+targets:
+  crystal-blockchain:
+    main: src/crystal-blockchain.cr
+
+crystal: 0.26.1
+
+license: MIT
