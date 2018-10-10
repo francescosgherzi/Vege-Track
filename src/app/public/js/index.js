@@ -69,7 +69,7 @@ fetch("http://localhost:3000/blockchain")
           <div class="card-content">
             <p id="apples-data">${el.timestamp}</p>
             <p>Origin: ${el.prov}</p>
-            <p>Hash: ${el.hash}</p>
+            
             <p>Destinations: ${el.dests}</p>
             <p>Available batches: ${el.batch}</p>
           </div>
