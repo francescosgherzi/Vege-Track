@@ -10,3 +10,11 @@ From the parent directory run `crystal src/crystal-blockchain.cr` and from the `
 To create new blocks in the blockchain do a post request at ```http://localhost:3000/new-block```
 Example POST request, with curl: 
 ```curl -d '{"data":"watermelons", "info": "prov->Milan|dests->Achen => Chicago => London|batch->23 "}' -H "Content-Type: application/json" -X POST http://localhost:3000/new-block```
+
+## Raw output
+![raw output](https://github.com/francescosgherzi/Vege-Track/blob/master/photos/p1.png)
+
+## Website
+![website](https://github.com/francescosgherzi/Vege-Track/blob/master/photos/p2.png)
+
+*Made with love by Francesco Sgherzi, Chiara Marzano, Silvia Rossi, Nicola Fossati*
