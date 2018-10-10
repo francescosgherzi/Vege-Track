@@ -1,27 +1,12 @@
-# crystal-blockchain
+# Vege-Track
 
-TODO: Write a description here
+## Installation 
+Run `shards install` in the parent directory and `npm install` in the `src/app` folder.
 
-## Installation
+## Running the app
+From the parent directory run `crystal src/crystal-blockchain.cr` and from the `src/app` run `node index.js`
 
-TODO: Write installation instructions here
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Development
-
-TODO: Write development instructions here
-
-## Contributing
-
-1. Fork it (<https://github.com/your-github-user/crystal-blockchain/fork>)
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
-
-## Contributors
-
-- [your-github-user](https://github.com/your-github-user) Francesco Sgherzi - creator, maintainer
+## Creating new Blocks
+To create new blocks in the blockchain do a post request at ```http://localhost:3000/new-block```
+Example POST request, with curl: 
+```curl -d '{"data":"watermelons", "info": "prov->Milan|dests->Achen => Chicago => London|batch->23 "}' -H "Content-Type: application/json" -X POST http://localhost:3000/new-block```

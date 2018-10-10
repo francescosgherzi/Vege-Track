@@ -4,6 +4,10 @@ version: 0.1.0
 authors:
   - Francesco Sgherzi <francesco.sgherzi@gmail.com>
 
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+
 targets:
   crystal-blockchain:
     main: src/crystal-blockchain.cr
